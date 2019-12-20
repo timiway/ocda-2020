@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
+        <title>Beijing Olympic City Development Association - 2020 HAPPY NEW YEAR</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, maximum-scale=1, minimum-scale=1">
 
@@ -30,7 +30,7 @@
             <div class="ele intro" style="width: 140px; left: -50px; top: -50px;"><img src="img/003.png" /></div>
             <div class="ele intro" style="width: 160px; left: 320px; top: -10px;"><img src="img/003.png" /></div>
             <div class="ele intro" style="width: 180px; left: 110px; top: 215px;"><img src="img/003.png" /></div>
-            <div class="ele intro" style="width: 220px; left: 80px; top: 40px;"><img src="img/020.png" /></div>
+            <div class="ele intro" style="width: 220px; left: 95px; top: 40px;"><img src="img/020.png" /></div>
             <div class="ele intro year" style="width: 85px; left: 60px; top: 105px;"><img src="img/006.png" /></div>
             <div class="ele intro year" style="width: 85px; left: 130px; top: 105px;"><img src="img/006a.png" /></div>
             <div class="ele intro year" style="width: 85px; left: 195px; top: 105px;"><img src="img/006.png" /></div>
@@ -66,6 +66,7 @@
         $(function () {
             //
             if (location.hash.split('#')[1]!='international') {
+                $('title').text('北京奥运城市发展促进会 - 2020新年贺卡');
                 $('#locale-a').width(340).height(40).css({overflow: 'hidden', top: 220, left: 30,}).children().css('margin-top', -40);
                 $('#locale-b').css('top', 270).children().prop('src', 'img/022.png');
                 $('#locale-c').css({top: 215, left: 110});
