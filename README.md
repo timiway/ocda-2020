@@ -1,3 +1,3 @@
 # ocda-2020
 
-olypic city development association
+olympic city development association
