@@ -22,7 +22,7 @@ html, body { height: 100%; background: #7d0909;}
 .rotate2 { animation: key-rotate 20s linear infinite reverse; }
 .point { animation: key-showloop 10s ease infinite; }
 .top { animation: key-top 3s ease-in-out infinite alternate; }
-.year { animation: key-yearloop 10s ease infinite; }
+.year { animation: key-yearloop 6s ease infinite; }
 .x { animation: key-x 1s ease infinite; }
 
 @keyframes key-btn {
